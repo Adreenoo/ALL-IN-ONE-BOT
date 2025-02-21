@@ -1,24 +1,3 @@
-/*
-
-☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆
-                                                 
-  _________ ___ ___ ._______   _________    
- /   _____//   |   \|   \   \ /   /  _  \   
- \_____  \/    ~    \   |\   Y   /  /_\  \  
- /        \    Y    /   | \     /    |    \ 
-/_______  /\___|_  /|___|  \___/\____|__  / 
-        \/       \/                     \/  
-                    
-DISCORD :  https://discord.com/invite/xQF9f9yUEM                   
-YouTube : https://www.youtube.com/@GlaceYT                         
-
-Command Verified : ✓  
-Website        : ssrr.tech  
-Test Passed    : ✓
-
-☆.。.:*・°☆.。.:*・°☆.。.:*・°☆.。.:*・°☆
-*/
-
 
 const { SlashCommandBuilder, EmbedBuilder, ActionRowBuilder, ButtonBuilder, ButtonStyle, StringSelectMenuBuilder } = require('discord.js');
 const fs = require('fs');
@@ -34,7 +13,7 @@ module.exports = {
     async execute(interaction) {
         if (interaction.isCommand && interaction.isCommand()) {
         
-            const BOT_ICON = "https://cdn.discordapp.com/attachments/1338950593456373761/1342511229796618301/ed7b0a5e27fd08cfb5529e3c908b13c9.jpg?ex=67b9e683&is=67b89503&hm=dc1d0ff75a1062da7b137210078cedda7972c889fc0197e34a2ff03469cd13d5&";
+            const BOT_ICON = "https://cdn.discordapp.com/attachments/1338950593456373761/1342516443819933696/Dofoto_20250221_184436459f2dc8ba1ac061649aff78a35c731561b.jpg?ex=67b9eb5e&is=67b899de&hm=0fb49844d0611e8486603f81591dc83b3865713b2084165f0c20e7ebeccf62f2&";
             const EMBED_COLOR = "#3498db";
             const COMMANDS_DIR = path.join(__dirname, '../../commands');
             const EXCESS_COMMANDS_DIR = path.join(__dirname, '../../excesscommands');
@@ -133,7 +112,7 @@ module.exports = {
                         `- **Categories Enabled:** ${getEnabledCategories(config.categories).join(', ')}`,
                         `- **Prefix Commands:** ${Object.values(config.excessCommands).some(v => v) ? 'Enabled' : 'Disabled'}`
                     ].join('\n'),
-                    author: { name: 'All In One Bot' }
+                    author: { name: 'ƝꓴⱤ𐤠' }
                 });
 
                 // Command Pages for each category
