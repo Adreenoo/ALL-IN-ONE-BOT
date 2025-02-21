@@ -34,7 +34,7 @@ module.exports = {
     async execute(interaction) {
         if (interaction.isCommand && interaction.isCommand()) {
         
-            const BOT_ICON = "https://cdn.discordapp.com/emojis/1334648756649590805.png";
+            const BOT_ICON = "https://cdn.discordapp.com/attachments/1338950593456373761/1342511229796618301/ed7b0a5e27fd08cfb5529e3c908b13c9.jpg?ex=67b9e683&is=67b89503&hm=dc1d0ff75a1062da7b137210078cedda7972c889fc0197e34a2ff03469cd13d5&";
             const EMBED_COLOR = "#3498db";
             const COMMANDS_DIR = path.join(__dirname, '../../commands');
             const EXCESS_COMMANDS_DIR = path.join(__dirname, '../../excesscommands');
