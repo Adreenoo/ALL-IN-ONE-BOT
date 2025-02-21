@@ -125,11 +125,10 @@ module.exports = {
                 pages.push({
                     title: 'Bot Information',
                     description: [
-                        `- **Developer:** GlaceYT`,
+                        `- **Developer:** Admmirral`,
                         `- **Version:** 1.2.1`,
                         `- **Commands Loaded:** ${totalCommandsLoaded}`,
                         `- **Master Commands:** ${masterCount}`,
-                        `- **Sub Commands:** ${subCount}`,
                         `- **Total Commands:** ${totalCount}`,
                         `- **Categories Enabled:** ${getEnabledCategories(config.categories).join(', ')}`,
                         `- **Prefix Commands:** ${Object.values(config.excessCommands).some(v => v) ? 'Enabled' : 'Disabled'}`
